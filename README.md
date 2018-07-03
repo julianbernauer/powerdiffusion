@@ -14,7 +14,7 @@ The repository contains the data and replication code for the etimation of score
 
 - Indicator data set (61 countries between 1990 and 2015) as <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/DPD2018July_indicators.csv"> .csv </a>, <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/DPD2018July_indicators.dta"> .dta </a> and <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/DPD2018July_indicators.Rdata"> .Rdata </a>
 - Codebook and Sources 
-- Code to estimate the country scores of power diffusion and replicate the figures 
+- <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/fairt.r"> Code to estimate the country scores of power diffusion </a> and replicate the figures 
 - Country scores of power diffusion estimated (mean 1990-2015) with standard deviations as <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/DPD2018July_scores.csv"> .csv </a>, <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/DPD2018July_scores.dta"> .dta </a> and <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/DPD2018July_scores.Rdata"> .Rdata </a> 
 
 The indicator data set is constructed from a number of sources listed here. The underlying data and code to produce the indicator data set is available at https://dataverse.harvard.edu/dataverse/dpd. 
