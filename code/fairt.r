@@ -1,5 +1,6 @@
 # Replication code factor analytical item response theoretical (FAIRT) approach to generate scores of power diffusion 
 # Chapter 3 of the book 
+# Uses R and JAGS 
 
 library(foreign)
 library(R2WinBUGS)
