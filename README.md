@@ -12,7 +12,7 @@ Data: Cite the book, and add: Book: Bernauer, Julian and Adrian Vatter (YEAR): P
 ## Guide to the repository 
 The repository contains the data and replication code for the etimation of scores of power diffusion in four variants (see Chapter 2 of the book for theory) - proportional, decentral, presidential and direct power diffusion (empirics described in Chapter 3 of the book): 
 
-- Indicator data set (61 countries between 1990 and 2015) as .csv, .dta and .Rdata 
+- Indicator data set (61 countries between 1990 and 2015) as .csv, .dta and <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/DPD2018July_indicators.Rdata"> .Rdata </a>
 - Codebook and Sources 
 - Code to estimate the country scores of power diffusion and replicate the figures 
 - Country scores of power diffusion estimated (mean 1990-2015) with standard deviations as .csv, .dta and .Rdata 
