@@ -1,13 +1,13 @@
 ## Repository for the book "Power Diffusion and Democracy"
-
-The repository is home of documentation, data and replication material for the paper book "Democracy and Power Diffusion: Institutions, Deliberation and Outcomes", forthcoming with Cambridge University Press. 
+The repository is home of documentation, data and replication material for the paper book "Power Diffusion and Democracy: Institutions, Deliberation and Outcomes", forthcoming with Cambridge University Press. 
 
 ## Authors
 **Julian Bernauer (University of Mannheim, MZES)** and **Adrian Vatter (University of Bern, IPW)**
 
 ## How to cite 
+Book: Bernauer, Julian and Adrian Vatter (Forthcoming). Power Diffusion and Democracy: Institutions, Deliberation and Outcomes. Cambridge: Cambridge University Press. 
 
-Bernauer, Julian and Adrian Vatter (Forthcoming). Power Diffusion and Democracy: Institutions, Deliberation and Outcomes. Cambridge: Cambridge University Press. 
+Data: Cite the book, and add: Book: Bernauer, Julian and Adrian Vatter (YEAR): Power Diffusion and Democracy Data Repository, https://github.com/julianbernauer/powerdiffusion, [downloaded XX].
 
 ## Guide to the repository 
 The repository contains the data and replication code for the etimation of scores of power diffusion in four variants (see Chapter 2 of the book for theory) - proportional, decentral, presidential and direct power diffusion (empirics described in Chapter 3 of the book): 
