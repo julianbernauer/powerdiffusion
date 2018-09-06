@@ -1,0 +1,1134 @@
+%!PS-Adobe-3.0
+%%DocumentNeededResources: font Helvetica
+%%+ font Helvetica-Bold
+%%+ font Helvetica-Oblique
+%%+ font Helvetica-BoldOblique
+%%+ font Symbol
+%%DocumentMedia: a4 595 841 0 () ()
+%%Title: R Graphics Output
+%%Creator: R Software
+%%Pages: (atend)
+%%Orientation: Portrait
+%%BoundingBox: 18 18 577 824
+%%EndComments
+%%BeginProlog
+/bp  { gs sRGB gs } def
+% begin .ps.prolog
+/gs  { gsave } bind def
+/gr  { grestore } bind def
+/ep  { showpage gr gr } bind def
+/m   { moveto } bind def
+/l  { rlineto } bind def
+/np  { newpath } bind def
+/cp  { closepath } bind def
+/f   { fill } bind def
+/o   { stroke } bind def
+/c   { newpath 0 360 arc } bind def
+/r   { 4 2 roll moveto 1 copy 3 -1 roll exch 0 exch rlineto 0 rlineto -1 mul 0 exch rlineto closepath } bind def
+/p1  { stroke } bind def
+/p2  { gsave bg fill grestore newpath } bind def
+/p3  { gsave bg fill grestore stroke } bind def
+/p6  { gsave bg eofill grestore newpath } bind def
+/p7  { gsave bg eofill grestore stroke } bind def
+/t   { 5 -2 roll moveto gsave rotate
+       1 index stringwidth pop
+       mul neg 0 rmoveto show grestore } bind def
+/ta  { 4 -2 roll moveto gsave rotate show } bind def
+/tb  { 2 -1 roll 0 rmoveto show } bind def
+/cl  { grestore gsave newpath 3 index 3 index moveto 1 index
+       4 -1 roll lineto  exch 1 index lineto lineto
+       closepath clip newpath } bind def
+/rgb { setrgbcolor } bind def
+/s   { scalefont setfont } bind def
+% end   .ps.prolog
+/sRGB { [ /CIEBasedABC
+          << /DecodeLMN
+               [ { dup 0.03928 le
+                        {12.92321 div}
+                        {0.055 add 1.055 div 2.4 exp }
+                     ifelse
+                 } bind dup dup
+               ]
+             /MatrixLMN [0.412457 0.212673 0.019334
+                         0.357576 0.715152 0.119192
+                         0.180437 0.072175 0.950301]
+             /WhitePoint [0.9505 1.0 1.0890]
+           >>
+         ] setcolorspace } bind def
+/srgb { setcolor } bind def
+% begin encoding
+/WinAnsiEncoding [
+ /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+ /space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quoteright
+ /parenleft /parenright /asterisk /plus /comma /minus /period /slash
+ /zero /one /two /three /four /five /six /seven
+ /eight /nine /colon /semicolon /less /equal /greater /question
+ /at /A /B /C /D /E /F /G
+ /H /I /J /K /L /M /N /O
+ /P /Q /R /S /T /U /V /W
+ /X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore
+ /grave /a /b /c /d /e /f /g
+ /h /i /j /k /l /m /n /o
+ /p /q /r /s /t /u /v /w
+ /x /y /z /braceleft /bar /braceright /asciitilde /.notdef
+ /Euro /.notdef /quotesinglbase /florin /quotedblbase /ellipsis /dagger /daggerdbl
+ /circumflex /perthousand /Scaron /guilsinglleft /OE /.notdef /Zcaron /.notdef
+ /.notdef /quoteleft /quoteright /quotedblleft /quotedblright /bullet /endash /emdash
+ /tilde /trademark /scaron /guilsinglright /oe /.notdef /zcaron /Ydieresis
+ /space /exclamdown /cent /sterling /currency /yen /brokenbar /section
+ /dieresis /copyright /ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron
+ /degree /plusminus /twosuperior /threesuperior /acute /mu /paragraph /periodcentered
+ /cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf /threequarters /questiondown
+ /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+ /Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis
+ /Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply
+ /Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /germandbls
+ /agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla
+ /egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
+ /eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide
+ /oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /ydieresis
+]
+ def
+% end encoding
+%%IncludeResource: font Helvetica
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+  end
+/Font1 exch definefont pop
+%%IncludeResource: font Helvetica-Bold
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+  end
+/Font2 exch definefont pop
+%%IncludeResource: font Helvetica-Oblique
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+  end
+/Font3 exch definefont pop
+%%IncludeResource: font Helvetica-BoldOblique
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+  end
+/Font4 exch definefont pop
+%%IncludeResource: font Symbol
+/Symbol findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  currentdict
+  end
+/Font5 exch definefont pop
+%%EndProlog
+%%Page: 1 1
+bp
+18.00 18.00 577.28 823.89 cl
+0 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+65.14 603.73 m
+181.66 0 l
+o
+np
+65.14 603.73 m
+0 -4.75 l
+o
+np
+110.56 603.73 m
+0 -4.75 l
+o
+np
+155.97 603.73 m
+0 -4.75 l
+o
+np
+201.38 603.73 m
+0 -4.75 l
+o
+np
+246.80 603.73 m
+0 -4.75 l
+o
+/Font1 findfont 8 s
+65.14 586.62 (-2) .5 0 t
+110.56 586.62 (-1) .5 0 t
+155.97 586.62 (0) .5 0 t
+201.38 586.62 (1) .5 0 t
+246.80 586.62 (2) .5 0 t
+np
+56.97 631.41 m
+0 125.83 l
+o
+np
+56.97 631.41 m
+-4.76 0 l
+o
+np
+56.97 673.36 m
+-4.76 0 l
+o
+np
+56.97 715.30 m
+-4.76 0 l
+o
+np
+56.97 757.24 m
+-4.76 0 l
+o
+45.56 631.41 (-1) .5 90 t
+45.56 673.36 (0) .5 90 t
+45.56 715.30 (1) .5 90 t
+45.56 757.24 (2) .5 90 t
+np
+56.97 603.73 m
+220.71 0 l
+0 181.19 l
+-220.71 0 l
+0 -181.19 l
+o
+18.00 555.26 297.64 823.89 cl
+/Font2 findfont 10 s
+0 0 0 srgb
+103.14 800.82 (Pr) 0 ta
+-0.200 (opor) tb
+0.200 (tional and Decentral) tb gr
+/Font1 findfont 8 s
+145.76 567.62 (Propor) 0 ta
+0.320 (tional) tb gr
+26.55 677.21 (Decentr) 90 ta
+-0.080 (al) tb gr
+56.97 603.73 277.68 784.92 cl
+/Font1 findfont 6 s
+0 0 0 srgb
+151.99 756.13 (ARG) .5 0 t
+128.57 730.82 (A) 0 ta
+-0.300 (US) tb gr
+159.85 712.48 (A) 0 ta
+-0.300 (UT) tb gr
+98.23 660.04 (BHS) .5 0 t
+92.43 659.42 (BRB) .5 0 t
+263.86 709.55 (BEL) .5 0 t
+222.16 634.79 (BEN) .5 0 t
+77.14 664.29 (BW) 0 ta
+-0.300 (A) tb gr
+153.06 657.18 (BGR) .5 0 t
+135.55 738.19 (CAN) .5 0 t
+123.44 638.15 (CPV) .5 0 t
+188.59 670.26 (CHL) .5 0 t
+144.88 663.06 (CRI) .5 0 t
+147.10 661.85 (HR) 0 ta
+-0.300 (V) tb gr
+184.11 672.02 (CZE) .5 0 t
+199.84 653.06 (DNK) .5 0 t
+129.80 666.81 (DOM) .5 0 t
+150.10 635.98 (SL) 0 ta
+-0.660 (V) tb gr
+190.34 659.89 (EST) .5 0 t
+213.17 645.78 (FIN) .5 0 t
+143.60 677.91 (FRA) .5 0 t
+170.46 738.24 (DEU) .5 0 t
+121.12 640.12 (GHA) .5 0 t
+137.07 636.98 (GRC) .5 0 t
+146.67 673.35 (HUN) .5 0 t
+176.19 621.91 (ISL) .5 0 t
+197.32 725.18 (IND) .5 0 t
+155.17 656.63 (IRL) .5 0 t
+233.54 693.80 (ISR) .5 0 t
+189.55 676.90 (IT) 0 ta
+-0.720 (A) tb gr
+91.43 656.83 (J) 0 ta
+-0.120 (AM) tb gr
+138.56 680.07 (JPN) .5 0 t
+132.09 665.76 (K) 0 ta
+-0.300 (OR) tb gr
+195.35 664.28 (L) 0 ta
+-0.660 (V) tb
+-0.480 (A) tb gr
+177.12 662.84 (L) 0 ta
+-0.660 (TU) tb gr
+173.20 639.82 (LUX) .5 0 t
+137.25 638.77 (MLI) .5 0 t
+111.57 634.12 (ML) 0 ta
+-0.660 (T) tb gr
+133.17 655.22 (MUS) .5 0 t
+135.39 727.19 (MEX) .5 0 t
+125.94 647.29 (MNG) .5 0 t
+124.59 658.61 (NAM) .5 0 t
+205.36 696.72 (NLD) .5 0 t
+146.49 617.21 (NZL) .5 0 t
+186.52 641.23 (NOR) .5 0 t
+139.15 665.92 (P) 0 ta
+-0.720 (AN) tb gr
+195.48 682.34 (POL) .5 0 t
+140.66 635.96 (PR) 0 ta
+-0.180 (T) tb gr
+159.45 662.46 (R) 0 ta
+-0.120 (OU) tb gr
+181.52 656.26 (SVK) .5 0 t
+205.37 677.60 (SVN) .5 0 t
+123.42 706.64 (ZAF) .5 0 t
+138.99 700.42 (ESP) .5 0 t
+138.13 638.64 (SUR) .5 0 t
+179.65 649.36 (SWE) .5 0 t
+217.50 732.72 (CHE) .5 0 t
+148.66 670.80 (TWN) .5 0 t
+99.68 661.05 (TT) 0 ta
+-0.240 (O) tb gr
+117.12 643.16 (GBR) .5 0 t
+125.98 750.82 (USA) .5 0 t
+142.52 665.68 (UR) 0 ta
+-0.300 (Y) tb gr
+336.60 603.73 557.32 784.92 cl
+18.00 18.00 577.28 823.89 cl
+0 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+344.78 603.73 m
+181.66 0 l
+o
+np
+344.78 603.73 m
+0 -4.75 l
+o
+np
+390.19 603.73 m
+0 -4.75 l
+o
+np
+435.61 603.73 m
+0 -4.75 l
+o
+np
+481.02 603.73 m
+0 -4.75 l
+o
+np
+526.44 603.73 m
+0 -4.75 l
+o
+/Font1 findfont 8 s
+344.78 586.62 (-2) .5 0 t
+390.19 586.62 (-1) .5 0 t
+435.61 586.62 (0) .5 0 t
+481.02 586.62 (1) .5 0 t
+526.44 586.62 (2) .5 0 t
+np
+336.60 610.44 m
+0 167.77 l
+o
+np
+336.60 610.44 m
+-4.75 0 l
+o
+np
+336.60 644.00 m
+-4.75 0 l
+o
+np
+336.60 677.55 m
+-4.75 0 l
+o
+np
+336.60 711.10 m
+-4.75 0 l
+o
+np
+336.60 744.66 m
+-4.75 0 l
+o
+np
+336.60 778.21 m
+-4.75 0 l
+o
+325.20 610.44 (-1.0) .5 90 t
+325.20 644.00 (-0.5) .5 90 t
+325.20 677.55 (0.0) .5 90 t
+325.20 711.10 (0.5) .5 90 t
+325.20 744.66 (1.0) .5 90 t
+325.20 778.21 (1.5) .5 90 t
+np
+336.60 603.73 m
+220.72 0 l
+0 181.19 l
+-220.72 0 l
+0 -181.19 l
+o
+297.64 555.26 577.28 823.89 cl
+/Font2 findfont 10 s
+0 0 0 srgb
+377.22 800.82 (Pr) 0 ta
+-0.200 (opor) tb
+0.200 (tional and Presidential) tb gr
+/Font1 findfont 8 s
+425.40 567.62 (Propor) 0 ta
+0.320 (tional) tb gr
+306.19 694.33 (Presidential) .5 90 t
+336.60 603.73 557.32 784.92 cl
+/Font1 findfont 6 s
+0 0 0 srgb
+422.92 727.94 (ARG) .5 0 t
+400.81 645.21 (A) 0 ta
+-0.300 (US) tb gr
+431.11 646.73 (A) 0 ta
+-0.300 (UT) tb gr
+379.11 650.98 (BHS) .5 0 t
+378.81 650.38 (BRB) .5 0 t
+541.16 650.20 (BEL) .5 0 t
+502.02 722.25 (BEN) .5 0 t
+350.51 648.23 (BW) 0 ta
+-0.300 (A) tb gr
+429.87 653.58 (BGR) .5 0 t
+415.41 649.48 (CAN) .5 0 t
+412.04 692.68 (CPV) .5 0 t
+471.03 726.16 (CHL) .5 0 t
+417.50 719.57 (CRI) .5 0 t
+422.49 650.05 (HR) 0 ta
+-0.300 (V) tb gr
+456.11 653.07 (CZE) .5 0 t
+476.55 653.71 (DNK) .5 0 t
+401.56 725.09 (DOM) .5 0 t
+431.02 720.29 (SL) 0 ta
+-0.660 (V) tb gr
+470.91 643.55 (EST) .5 0 t
+492.76 687.88 (FIN) .5 0 t
+428.63 696.34 (FRA) .5 0 t
+451.75 651.12 (DEU) .5 0 t
+394.74 723.90 (GHA) .5 0 t
+410.59 649.15 (GRC) .5 0 t
+430.21 691.51 (HUN) .5 0 t
+462.08 650.12 (ISL) .5 0 t
+482.91 654.90 (IND) .5 0 t
+427.87 651.40 (IRL) .5 0 t
+514.70 650.72 (ISR) .5 0 t
+477.85 649.73 (IT) 0 ta
+-0.720 (A) tb gr
+368.93 653.42 (J) 0 ta
+-0.120 (AM) tb gr
+424.22 650.32 (JPN) .5 0 t
+404.64 726.65 (K) 0 ta
+-0.300 (OR) tb gr
+473.22 647.98 (L) 0 ta
+-0.660 (V) tb
+-0.480 (A) tb gr
+461.73 690.16 (L) 0 ta
+-0.660 (TU) tb gr
+454.87 647.79 (LUX) .5 0 t
+421.17 690.21 (MLI) .5 0 t
+397.50 649.78 (ML) 0 ta
+-0.660 (T) tb gr
+408.84 658.00 (MUS) .5 0 t
+411.04 734.12 (MEX) .5 0 t
+413.59 691.96 (MNG) .5 0 t
+406.85 720.53 (NAM) .5 0 t
+482.73 650.19 (NLD) .5 0 t
+428.80 641.66 (NZL) .5 0 t
+466.40 646.00 (NOR) .5 0 t
+419.65 723.24 (P) 0 ta
+-0.720 (AN) tb gr
+472.09 690.19 (POL) .5 0 t
+413.00 692.18 (PR) 0 ta
+-0.180 (T) tb gr
+438.67 693.55 (R) 0 ta
+-0.120 (OU) tb gr
+468.79 650.38 (SVK) .5 0 t
+479.84 651.31 (SVN) .5 0 t
+396.69 653.48 (ZAF) .5 0 t
+425.39 651.99 (ESP) .5 0 t
+414.05 725.24 (SUR) .5 0 t
+459.64 648.61 (SWE) .5 0 t
+498.46 693.88 (CHE) .5 0 t
+433.45 692.42 (TWN) .5 0 t
+384.31 644.66 (TT) 0 ta
+-0.240 (O) tb gr
+405.07 651.29 (GBR) .5 0 t
+400.18 743.95 (USA) .5 0 t
+428.84 727.09 (UR) 0 ta
+-0.300 (Y) tb gr
+56.97 335.10 277.68 516.29 cl
+18.00 18.00 577.28 823.89 cl
+0 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+65.14 335.10 m
+181.66 0 l
+o
+np
+65.14 335.10 m
+0 -4.75 l
+o
+np
+110.56 335.10 m
+0 -4.75 l
+o
+np
+155.97 335.10 m
+0 -4.75 l
+o
+np
+201.38 335.10 m
+0 -4.75 l
+o
+np
+246.80 335.10 m
+0 -4.75 l
+o
+/Font1 findfont 8 s
+65.14 317.99 (-2) .5 0 t
+110.56 317.99 (-1) .5 0 t
+155.97 317.99 (0) .5 0 t
+201.38 317.99 (1) .5 0 t
+246.80 317.99 (2) .5 0 t
+np
+56.97 358.59 m
+0 134.22 l
+o
+np
+56.97 358.59 m
+-4.76 0 l
+o
+np
+56.97 392.14 m
+-4.76 0 l
+o
+np
+56.97 425.70 m
+-4.76 0 l
+o
+np
+56.97 459.25 m
+-4.76 0 l
+o
+np
+56.97 492.81 m
+-4.76 0 l
+o
+45.56 358.59 (-1) .5 90 t
+45.56 392.14 (0) .5 90 t
+45.56 425.70 (1) .5 90 t
+45.56 459.25 (2) .5 90 t
+45.56 492.81 (3) .5 90 t
+np
+56.97 335.10 m
+220.71 0 l
+0 181.19 l
+-220.71 0 l
+0 -181.19 l
+o
+18.00 286.63 297.64 555.26 cl
+/Font2 findfont 10 s
+0 0 0 srgb
+111.76 532.19 (Pr) 0 ta
+-0.200 (opor) tb
+0.200 (tional and Direct) tb gr
+/Font1 findfont 8 s
+145.76 298.99 (Propor) 0 ta
+0.320 (tional) tb gr
+26.55 425.70 (Direct) .5 90 t
+56.97 335.10 277.68 516.29 cl
+/Font1 findfont 6 s
+0 0 0 srgb
+151.99 373.24 (ARG) .5 0 t
+128.57 395.01 (A) 0 ta
+-0.300 (US) tb gr
+159.85 401.01 (A) 0 ta
+-0.300 (UT) tb gr
+98.23 396.18 (BHS) .5 0 t
+92.43 383.05 (BRB) .5 0 t
+263.86 381.66 (BEL) .5 0 t
+222.16 371.92 (BEN) .5 0 t
+77.14 403.89 (BW) 0 ta
+-0.300 (A) tb gr
+153.06 402.46 (BGR) .5 0 t
+135.55 366.02 (CAN) .5 0 t
+123.44 391.24 (CPV) .5 0 t
+188.59 387.37 (CHL) .5 0 t
+144.88 384.24 (CRI) .5 0 t
+147.10 400.32 (HR) 0 ta
+-0.300 (V) tb gr
+184.11 375.42 (CZE) .5 0 t
+199.84 391.68 (DNK) .5 0 t
+129.80 381.52 (DOM) .5 0 t
+150.10 386.10 (SL) 0 ta
+-0.660 (V) tb gr
+190.34 380.78 (EST) .5 0 t
+213.17 369.55 (FIN) .5 0 t
+143.60 379.68 (FRA) .5 0 t
+170.46 383.89 (DEU) .5 0 t
+121.12 392.99 (GHA) .5 0 t
+137.07 384.90 (GRC) .5 0 t
+146.67 422.96 (HUN) .5 0 t
+176.19 387.54 (ISL) .5 0 t
+197.32 383.74 (IND) .5 0 t
+155.17 401.75 (IRL) .5 0 t
+233.54 384.03 (ISR) .5 0 t
+189.55 435.98 (IT) 0 ta
+-0.720 (A) tb gr
+91.43 379.88 (J) 0 ta
+-0.120 (AM) tb gr
+138.56 387.90 (JPN) .5 0 t
+132.09 385.94 (K) 0 ta
+-0.300 (OR) tb gr
+195.35 418.84 (L) 0 ta
+-0.660 (V) tb
+-0.480 (A) tb gr
+177.12 446.72 (L) 0 ta
+-0.660 (TU) tb gr
+173.20 373.45 (LUX) .5 0 t
+137.25 379.59 (MLI) .5 0 t
+111.57 368.57 (ML) 0 ta
+-0.660 (T) tb gr
+133.17 393.44 (MUS) .5 0 t
+135.39 379.42 (MEX) .5 0 t
+125.94 377.95 (MNG) .5 0 t
+124.59 380.63 (NAM) .5 0 t
+205.36 372.76 (NLD) .5 0 t
+146.49 382.01 (NZL) .5 0 t
+186.52 366.09 (NOR) .5 0 t
+139.15 393.88 (P) 0 ta
+-0.720 (AN) tb gr
+195.48 384.13 (POL) .5 0 t
+140.66 371.49 (PR) 0 ta
+-0.180 (T) tb gr
+159.45 385.81 (R) 0 ta
+-0.120 (OU) tb gr
+181.52 400.76 (SVK) .5 0 t
+205.37 400.22 (SVN) .5 0 t
+123.42 374.72 (ZAF) .5 0 t
+138.99 380.80 (ESP) .5 0 t
+138.13 375.16 (SUR) .5 0 t
+179.65 376.31 (SWE) .5 0 t
+217.50 497.30 (CHE) .5 0 t
+148.66 390.44 (TWN) .5 0 t
+99.68 381.59 (TT) 0 ta
+-0.240 (O) tb gr
+117.12 374.90 (GBR) .5 0 t
+125.98 382.21 (USA) .5 0 t
+142.52 443.91 (UR) 0 ta
+-0.300 (Y) tb gr
+336.60 335.10 557.32 516.29 cl
+18.00 18.00 577.28 823.89 cl
+0 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+344.78 335.10 m
+181.66 0 l
+o
+np
+344.78 335.10 m
+0 -4.75 l
+o
+np
+390.19 335.10 m
+0 -4.75 l
+o
+np
+435.61 335.10 m
+0 -4.75 l
+o
+np
+481.02 335.10 m
+0 -4.75 l
+o
+np
+526.44 335.10 m
+0 -4.75 l
+o
+/Font1 findfont 8 s
+344.78 317.99 (-2) .5 0 t
+390.19 317.99 (-1) .5 0 t
+435.61 317.99 (0) .5 0 t
+481.02 317.99 (1) .5 0 t
+526.44 317.99 (2) .5 0 t
+np
+336.60 341.81 m
+0 167.77 l
+o
+np
+336.60 341.81 m
+-4.75 0 l
+o
+np
+336.60 375.37 m
+-4.75 0 l
+o
+np
+336.60 408.92 m
+-4.75 0 l
+o
+np
+336.60 442.47 m
+-4.75 0 l
+o
+np
+336.60 476.03 m
+-4.75 0 l
+o
+np
+336.60 509.58 m
+-4.75 0 l
+o
+325.20 341.81 (-1.0) .5 90 t
+325.20 375.37 (-0.5) .5 90 t
+325.20 408.92 (0.0) .5 90 t
+325.20 442.47 (0.5) .5 90 t
+325.20 476.03 (1.0) .5 90 t
+325.20 509.58 (1.5) .5 90 t
+np
+336.60 335.10 m
+220.72 0 l
+0 181.19 l
+-220.72 0 l
+0 -181.19 l
+o
+297.64 286.63 577.28 555.26 cl
+/Font2 findfont 10 s
+0 0 0 srgb
+446.96 532.19 (Decentral and Presidential) .5 0 t
+/Font1 findfont 8 s
+429.84 298.99 (Decentr) 0 ta
+-0.080 (al) tb gr
+306.19 425.70 (Presidential) .5 90 t
+336.60 335.10 557.32 516.29 cl
+/Font1 findfont 6 s
+0 0 0 srgb
+535.17 459.31 (ARG) .5 0 t
+499.16 376.58 (A) 0 ta
+-0.300 (US) tb gr
+459.06 378.10 (A) 0 ta
+-0.300 (UT) tb gr
+420.35 382.35 (BHS) .5 0 t
+422.98 381.75 (BRB) .5 0 t
+495.61 381.57 (BEL) .5 0 t
+420.40 453.62 (BEN) .5 0 t
+410.30 379.60 (BW) 0 ta
+-0.300 (A) tb gr
+447.04 384.95 (BGR) .5 0 t
+529.95 380.85 (CAN) .5 0 t
+374.90 424.05 (CPV) .5 0 t
+419.60 457.53 (CHL) .5 0 t
+414.44 450.94 (CRI) .5 0 t
+421.53 381.42 (HR) 0 ta
+-0.300 (V) tb gr
+453.23 384.44 (CZE) .5 0 t
+434.84 385.08 (DNK) .5 0 t
+444.78 456.46 (DOM) .5 0 t
+406.04 451.66 (SL) 0 ta
+-0.660 (V) tb gr
+407.48 374.92 (EST) .5 0 t
+408.38 419.25 (FIN) .5 0 t
+443.45 427.71 (FRA) .5 0 t
+485.15 382.49 (DEU) .5 0 t
+425.50 455.27 (GHA) .5 0 t
+380.09 380.52 (GRC) .5 0 t
+424.11 422.88 (HUN) .5 0 t
+402.32 381.49 (ISL) .5 0 t
+499.39 386.27 (IND) .5 0 t
+432.49 382.77 (IRL) .5 0 t
+470.11 382.09 (ISR) .5 0 t
+413.06 381.10 (IT) 0 ta
+-0.720 (A) tb gr
+415.71 384.79 (J) 0 ta
+-0.120 (AM) tb gr
+426.69 381.69 (JPN) .5 0 t
+421.62 458.02 (K) 0 ta
+-0.300 (OR) tb gr
+406.10 379.35 (L) 0 ta
+-0.660 (V) tb
+-0.480 (A) tb gr
+414.81 421.53 (L) 0 ta
+-0.660 (TU) tb gr
+401.79 379.16 (LUX) .5 0 t
+412.28 421.58 (MLI) .5 0 t
+402.41 381.15 (ML) 0 ta
+-0.660 (T) tb gr
+414.21 389.37 (MUS) .5 0 t
+506.99 465.49 (MEX) .5 0 t
+423.97 423.33 (MNG) .5 0 t
+438.30 451.90 (NAM) .5 0 t
+446.33 381.56 (NLD) .5 0 t
+395.74 373.03 (NZL) .5 0 t
+390.76 377.37 (NOR) .5 0 t
+410.18 454.61 (P) 0 ta
+-0.720 (AN) tb gr
+453.16 421.56 (POL) .5 0 t
+383.25 423.55 (PR) 0 ta
+-0.180 (T) tb gr
+417.16 424.92 (R) 0 ta
+-0.120 (OU) tb gr
+424.22 381.75 (SVK) .5 0 t
+421.48 382.68 (SVN) .5 0 t
+459.91 384.85 (ZAF) .5 0 t
+467.31 383.36 (ESP) .5 0 t
+394.21 456.61 (SUR) .5 0 t
+407.85 379.98 (SWE) .5 0 t
+527.81 425.25 (CHE) .5 0 t
+429.85 423.79 (TWN) .5 0 t
+409.77 376.03 (TT) 0 ta
+-0.240 (O) tb gr
+431.18 382.66 (GBR) .5 0 t
+504.71 475.32 (USA) .5 0 t
+439.79 458.46 (UR) 0 ta
+-0.300 (Y) tb gr
+56.97 66.47 277.68 247.66 cl
+18.00 18.00 577.28 823.89 cl
+0 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+65.14 66.47 m
+181.66 0 l
+o
+np
+65.14 66.47 m
+0 -4.75 l
+o
+np
+110.56 66.47 m
+0 -4.75 l
+o
+np
+155.97 66.47 m
+0 -4.75 l
+o
+np
+201.38 66.47 m
+0 -4.75 l
+o
+np
+246.80 66.47 m
+0 -4.75 l
+o
+/Font1 findfont 8 s
+65.14 49.36 (-2) .5 0 t
+110.56 49.36 (-1) .5 0 t
+155.97 49.36 (0) .5 0 t
+201.38 49.36 (1) .5 0 t
+246.80 49.36 (2) .5 0 t
+np
+56.97 89.96 m
+0 134.22 l
+o
+np
+56.97 89.96 m
+-4.76 0 l
+o
+np
+56.97 123.51 m
+-4.76 0 l
+o
+np
+56.97 157.07 m
+-4.76 0 l
+o
+np
+56.97 190.62 m
+-4.76 0 l
+o
+np
+56.97 224.18 m
+-4.76 0 l
+o
+45.56 89.96 (-1) .5 90 t
+45.56 123.51 (0) .5 90 t
+45.56 157.07 (1) .5 90 t
+45.56 190.62 (2) .5 90 t
+45.56 224.18 (3) .5 90 t
+np
+56.97 66.47 m
+220.71 0 l
+0 181.19 l
+-220.71 0 l
+0 -181.19 l
+o
+18.00 18.00 297.64 286.63 cl
+/Font2 findfont 10 s
+0 0 0 srgb
+167.32 263.56 (Decentral and and Direct) .5 0 t
+/Font1 findfont 8 s
+150.21 30.36 (Decentr) 0 ta
+-0.080 (al) tb gr
+26.55 157.07 (Direct) .5 90 t
+56.97 66.47 277.68 247.66 cl
+/Font1 findfont 6 s
+0 0 0 srgb
+247.93 104.61 (ARG) .5 0 t
+214.35 126.38 (A) 0 ta
+-0.300 (US) tb gr
+194.60 132.38 (A) 0 ta
+-0.300 (UT) tb gr
+143.89 127.55 (BHS) .5 0 t
+143.22 114.42 (BRB) .5 0 t
+197.49 113.03 (BEL) .5 0 t
+116.54 103.29 (BEN) .5 0 t
+141.65 135.26 (BW) 0 ta
+-0.300 (A) tb gr
+140.78 133.83 (BGR) .5 0 t
+228.50 97.39 (CAN) .5 0 t
+120.18 122.61 (CPV) .5 0 t
+154.95 118.74 (CHL) .5 0 t
+147.15 115.61 (CRI) .5 0 t
+139.51 131.69 (HR) 0 ta
+-0.300 (V) tb gr
+156.85 106.79 (CZE) .5 0 t
+136.33 123.05 (DNK) .5 0 t
+151.21 112.89 (DOM) .5 0 t
+112.17 117.47 (SL) 0 ta
+-0.660 (V) tb gr
+143.72 112.15 (EST) .5 0 t
+128.44 100.92 (FIN) .5 0 t
+163.24 111.05 (FRA) .5 0 t
+228.50 115.26 (DEU) .5 0 t
+122.31 124.36 (GHA) .5 0 t
+118.92 116.27 (GRC) .5 0 t
+158.23 154.33 (HUN) .5 0 t
+102.60 118.91 (ISL) .5 0 t
+214.42 115.11 (IND) .5 0 t
+140.19 133.12 (IRL) .5 0 t
+180.43 115.40 (ISR) .5 0 t
+157.47 167.35 (IT) 0 ta
+-0.720 (A) tb gr
+134.35 111.25 (J) 0 ta
+-0.120 (AM) tb gr
+165.51 119.27 (JPN) .5 0 t
+143.58 117.31 (K) 0 ta
+-0.300 (OR) tb gr
+142.80 150.21 (L) 0 ta
+-0.660 (V) tb
+-0.480 (A) tb gr
+141.19 178.09 (L) 0 ta
+-0.660 (TU) tb gr
+121.93 104.82 (LUX) .5 0 t
+120.85 110.96 (MLI) .5 0 t
+109.82 99.94 (ML) 0 ta
+-0.660 (T) tb gr
+138.67 124.81 (MUS) .5 0 t
+216.59 110.79 (MEX) .5 0 t
+130.08 109.32 (MNG) .5 0 t
+142.34 112.00 (NAM) .5 0 t
+183.59 104.13 (NLD) .5 0 t
+97.51 113.38 (NZL) .5 0 t
+123.52 97.46 (NOR) .5 0 t
+144.08 125.25 (P) 0 ta
+-0.720 (AN) tb gr
+168.03 115.50 (POL) .5 0 t
+111.81 102.86 (PR) 0 ta
+-0.180 (T) tb gr
+139.84 117.18 (R) 0 ta
+-0.120 (OU) tb gr
+139.80 132.13 (SVK) .5 0 t
+162.90 131.59 (SVN) .5 0 t
+194.34 106.09 (ZAF) .5 0 t
+187.60 112.17 (ESP) .5 0 t
+120.72 106.53 (SUR) .5 0 t
+132.32 107.68 (SWE) .5 0 t
+222.58 228.67 (CHE) .5 0 t
+155.54 121.81 (TWN) .5 0 t
+138.98 112.96 (TT) 0 ta
+-0.240 (O) tb gr
+125.60 106.27 (GBR) .5 0 t
+242.18 113.58 (USA) .5 0 t
+143.59 175.28 (UR) 0 ta
+-0.300 (Y) tb gr
+336.60 66.47 557.32 247.66 cl
+18.00 18.00 577.28 823.89 cl
+0 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+344.78 66.47 m
+204.36 0 l
+o
+np
+344.78 66.47 m
+0 -4.75 l
+o
+np
+385.65 66.47 m
+0 -4.75 l
+o
+np
+426.52 66.47 m
+0 -4.75 l
+o
+np
+467.40 66.47 m
+0 -4.75 l
+o
+np
+508.27 66.47 m
+0 -4.75 l
+o
+np
+549.14 66.47 m
+0 -4.75 l
+o
+/Font1 findfont 8 s
+344.78 49.36 (-1.0) .5 0 t
+385.65 49.36 (-0.5) .5 0 t
+426.52 49.36 (0.0) .5 0 t
+467.40 49.36 (0.5) .5 0 t
+508.27 49.36 (1.0) .5 0 t
+549.14 49.36 (1.5) .5 0 t
+np
+336.60 89.96 m
+0 134.22 l
+o
+np
+336.60 89.96 m
+-4.75 0 l
+o
+np
+336.60 123.51 m
+-4.75 0 l
+o
+np
+336.60 157.07 m
+-4.75 0 l
+o
+np
+336.60 190.62 m
+-4.75 0 l
+o
+np
+336.60 224.18 m
+-4.75 0 l
+o
+325.20 89.96 (-1) .5 90 t
+325.20 123.51 (0) .5 90 t
+325.20 157.07 (1) .5 90 t
+325.20 190.62 (2) .5 90 t
+325.20 224.18 (3) .5 90 t
+np
+336.60 66.47 m
+220.72 0 l
+0 181.19 l
+-220.72 0 l
+0 -181.19 l
+o
+297.64 18.00 577.28 286.63 cl
+/Font2 findfont 10 s
+0 0 0 srgb
+446.96 263.56 (Presidential and Direct) .5 0 t
+/Font1 findfont 8 s
+446.96 30.36 (Presidential) .5 0 t
+306.19 157.07 (Direct) .5 90 t
+336.60 66.47 557.32 247.66 cl
+/Font1 findfont 6 s
+0 0 0 srgb
+490.53 97.38 (ARG) .5 0 t
+383.59 125.55 (A) 0 ta
+-0.300 (US) tb gr
+385.53 129.44 (A) 0 ta
+-0.300 (UT) tb gr
+396.78 124.76 (BHS) .5 0 t
+396.06 122.32 (BRB) .5 0 t
+395.84 125.85 (BEL) .5 0 t
+483.59 110.06 (BEN) .5 0 t
+386.60 141.39 (BW) 0 ta
+-0.300 (A) tb gr
+399.95 129.20 (BGR) .5 0 t
+394.96 85.65 (CAN) .5 0 t
+447.58 129.11 (CPV) .5 0 t
+488.36 125.88 (CHL) .5 0 t
+480.33 108.08 (CRI) .5 0 t
+389.32 144.45 (HR) 0 ta
+-0.300 (V) tb gr
+399.33 102.24 (CZE) .5 0 t
+400.11 110.86 (DNK) .5 0 t
+487.06 126.03 (DOM) .5 0 t
+475.54 116.00 (SL) 0 ta
+-0.660 (V) tb gr
+387.73 123.11 (EST) .5 0 t
+441.73 111.05 (FIN) .5 0 t
+452.04 105.02 (FRA) .5 0 t
+396.88 128.57 (DEU) .5 0 t
+485.61 128.03 (GHA) .5 0 t
+394.55 127.23 (GRC) .5 0 t
+446.09 145.12 (HUN) .5 0 t
+395.74 106.30 (ISL) .5 0 t
+401.56 107.14 (IND) .5 0 t
+397.30 142.04 (IRL) .5 0 t
+396.46 113.30 (ISR) .5 0 t
+390.59 167.97 (IT) 0 ta
+-0.720 (A) tb gr
+393.69 105.64 (J) 0 ta
+-0.120 (AM) tb gr
+395.90 129.39 (JPN) .5 0 t
+482.46 108.19 (K) 0 ta
+-0.300 (OR) tb gr
+387.46 162.30 (L) 0 ta
+-0.660 (V) tb
+-0.480 (A) tb gr
+438.77 182.47 (L) 0 ta
+-0.660 (TU) tb gr
+392.82 100.45 (LUX) .5 0 t
+444.57 123.20 (MLI) .5 0 t
+389.32 100.31 (ML) 0 ta
+-0.660 (T) tb gr
+405.33 125.08 (MUS) .5 0 t
+498.06 102.48 (MEX) .5 0 t
+446.70 113.23 (MNG) .5 0 t
+481.50 117.20 (NAM) .5 0 t
+395.83 97.76 (NLD) .5 0 t
+385.43 101.61 (NZL) .5 0 t
+390.72 84.94 (NOR) .5 0 t
+478.64 122.11 (P) 0 ta
+-0.720 (AN) tb gr
+444.54 128.71 (POL) .5 0 t
+440.97 113.08 (PR) 0 ta
+-0.180 (T) tb gr
+441.97 113.83 (R) 0 ta
+-0.120 (OU) tb gr
+396.05 126.92 (SVK) .5 0 t
+397.19 144.92 (SVN) .5 0 t
+399.83 110.62 (ZAF) .5 0 t
+398.02 105.39 (ESP) .5 0 t
+487.24 94.71 (SUR) .5 0 t
+393.90 109.36 (SWE) .5 0 t
+449.04 217.56 (CHE) .5 0 t
+447.26 130.76 (TWN) .5 0 t
+383.09 123.33 (TT) 0 ta
+-0.240 (O) tb gr
+397.16 106.36 (GBR) .5 0 t
+510.03 112.60 (USA) .5 0 t
+483.09 170.02 (UR) 0 ta
+-0.300 (Y) tb gr
+ep
+%%Trailer
+%%Pages: 1
+%%EOF
