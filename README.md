@@ -34,6 +34,6 @@ Additonally, we provide scores similar to those of consensus democracy in Lijpha
 
 ## Illustration 
 
-![Map of Proportional Power Diffusion (1990-2015)](figures/fig3_7.eps)
+![Maps of Power Diffusion (1990-2015)](figures/fig3_7.eps)
 
 **Bivariate maps of the four types of power diffusion (1990-2015)**
