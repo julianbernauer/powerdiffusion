@@ -32,13 +32,8 @@ infant mortality (<a href="https://github.com/julianbernauer/powerdiffusion/blob
 Additonally, we provide scores similar to those of consensus democracy in Lijphart (2012) in the section "Lijphart-Style Scores" as a nod to the grandmaster of empirical patterns of democracy. 
 
 
-## Some Illustrations 
+## Illustration 
 
-Here is a plot of proportional power diffusion in the countries covered: 
+![Map of Proportional Power Diffusion (1990-2015)](figures/fig3_7.eps)
 
-![Map of Proportional Power Diffusion (1990-2015)](figures/Fig_pd1.jpeg)
-
-**Figure: Map of Proportional Power Diffusion (1990-2015)**
-
-Bivariate maps of the four types of power diffusion: 
-
+**Bivariate maps of the four types of power diffusion (1990-2015)**
