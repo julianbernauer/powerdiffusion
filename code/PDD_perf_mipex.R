@@ -1,6 +1,9 @@
-##########
-# Bernauer, Julian and Adrian Vatter (Forthcoming). Power Diffusion and Democracy: Institutions, Deliberation and Outcomes. Cambridge: Cambridge University Press.
-# Replication code Chapter 4: MIPEX 
+######################################################
+#Replication code for "Power Diffusion and Democracy"#
+######################################################
+# Julian Bernauer and Adrian Vatter 
+
+# Replication code Chapter 4: MIPEX
 
 library(R2jags)
 
