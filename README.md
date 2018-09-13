@@ -22,7 +22,7 @@ The indicator data set is constructed from a number of sources listed here. The 
 The repository also provides replication code and data for the chapters of the book analyzing determinants and consequences of power diffusion: 
 - Chapter 4 on power diffusion and performance: migrant integration policy (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/PDD2018_ch4_perf_mipex.Rdata">data</a>; <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_perf_mipex.R"> code</a>),
 corruption (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/PDD2018_ch4_perf_corr.Rdata">data</a>; <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_perf_corr.R"> code</a>),
-economic inequality (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/PDD2018_ch4_perf_inequ.Rdata">data</a>; <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_perf_inequ.R"> code</a>),
+economic inequality (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/PDD2018_ch4_perf_inequ.Rdata">data</a>; <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_perf_inequ_github.R"> code</a>),
 infant mortality (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/PDD2018_ch4_perf_infmort.Rdata">data</a>; <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_perf_infmort_github.R"> code</a>),
 - Chapter 5 on power diffusion : (data and code) 
 - Chapter 6 on the explanation of power diffusion: Data and code 
