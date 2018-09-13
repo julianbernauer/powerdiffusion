@@ -7,7 +7,7 @@
 
 library(R2jags)
 
-dir <- "E:/DPD CUP 2018/revision 2018/Doku2018/dataverse_files_chapter4_perf"
+dir <- "[...]"
 setwd(dir)
 
 # data with MIPEX and controls as decsribed in Chapter 4 of the book 
