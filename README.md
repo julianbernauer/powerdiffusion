@@ -24,10 +24,12 @@ The repository also provides replication code and data for the chapters of the b
 corruption (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/PDD2018_ch4_perf_corr.Rdata">data</a>; <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_perf_corr.R"> code</a>),
 economic inequality (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/PDD2018_ch4_perf_inequ.Rdata">data</a>; <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_perf_inequ_github.R"> code</a>),
 infant mortality (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/PDD2018_ch4_perf_infmort.Rdata">data</a>; <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_perf_infmort_github.R"> code</a>),
-- Chapter 5 on power diffusion and legitimacy: policy congruence (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/PDD2018_ch5_leg.Rdata">data</a>; <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_leg_cong_github.r"> code</a>),
-accountability perceptions (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/PDD2018_ch5_leg.Rdata">data</a>; <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_leg_acc_github.r"> code</a>),
-turnout (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/PDD2018_ch5_leg.Rdata">data</a>; <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_leg_turn_github.r"> code</a>),
-staisfaction with democracy (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/PDD2018_ch5_leg.Rdata">data</a>; <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_leg_demsat_github.r"> code</a>),
+- Chapter 5 on power diffusion and legitimacy: <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/PDD2018_ch5_leg.Rdata">data for all subanalyses</a>, 
+policy congruence (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_leg_cong_github.r"> code</a>),
+accountability perceptions (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_leg_acc_github.r"> code</a>),
+turnout (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_leg_turn_github.r"> code</a>),
+satisfaction with democracy (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_leg_demsat_github.r"> code</a>),
+descriptives (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_leg_descr_github.r"> code</a>),
 - Chapter 6 on the explanation of power diffusion: Data and code 
 - Chapter 7 on the convergence of democratic architectures: Data and code 
 - Chapter 8 on subnational power diffusion: Data and code 
