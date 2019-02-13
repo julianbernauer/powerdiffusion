@@ -10,7 +10,7 @@ Book: Bernauer, Julian and Adrian Vatter (Forthcoming). Power Diffusion and Demo
 Data: Cite the book, and add: Bernauer, Julian and Adrian Vatter (YEAR): Power Diffusion and Democracy Data Repository, https://github.com/julianbernauer/powerdiffusion, [downloaded XX].
 
 ## Guide to the repository 
-The repository contains the data and replication code for the etimation of scores of power diffusion in four variants (see Chapter 2 of the book for theory) - proportional, decentral, presidential and direct power diffusion (empirics described in Chapter 3 of the book): 
+The repository contains the data and replication code for the estimation of scores of power diffusion in four variants (see Chapter 2 of the book for theory) - proportional, decentral, presidential and direct power diffusion (empirics described in Chapter 3 of the book): 
 
 - Indicator data set (61 countries between 1990 and 2015) as <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/DPD2018July_indicators.csv"> .csv </a>, <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/DPD2018July_indicators.dta"> .dta </a> and <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/data/DPD2018July_indicators.Rdata"> .Rdata </a>
 - <a href="https://github.com/julianbernauer/powerdiffusion/blob/master/documentation/codebook.Rmd"> Codebook and Sources </a> 
