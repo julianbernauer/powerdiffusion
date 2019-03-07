@@ -9,7 +9,7 @@
 "Botswana",1990,72,"BWA",8, 
 "Bulgaria",2017,100,"BGR",9, http://www.parties-and-elections.eu/bulgaria.html
 "Canada",2015,124,"CAN",10, http://www.elections.ca/content.aspx?section=ele&document=index&dir=pas/42ge&lang=e 
-"Cape Verde",1991,132,"CPV",11,
+"Cape Verde",2016,132,"CPV",11, http://psephos.adam-carr.net/countries/c/capeverde/capeverde2016.txt
 "Chile",2017,152,"CHL",12, https://www.as-coa.org/articles/timeline-2017-and-2018-elections-latin-america
 "Costa Rica",2018,188,"CRI",13, https://www.as-coa.org/articles/timeline-2017-and-2018-elections-latin-america
 "Croatia",2016,191,"HRV",14, http://www.parties-and-elections.eu/croatia.html
@@ -21,7 +21,7 @@
 "Finland",2015,246,"FIN",20, http://www.parties-and-elections.eu/finland.html
 "France",2017,250,"FRA",21, http://www.parties-and-elections.eu/france.html
 "Germany",2017,276,"DEU",22, http://www.parties-and-elections.eu/germany.html
-"Ghana",2000,288,"GHA",23,
+"Ghana",2016,288,"GHA",23, http://psephos.adam-carr.net/countries/g/ghana/ghana2016leg.txt
 "Greece",2015,300,"GRC",24, http://www.parties-and-elections.eu/greece.html
 "Greece",2015,300,"GRC",24, http://www.parties-and-elections.eu/greece.html
 "Hungary",2018,348,"HUN",25, http://www.parties-and-elections.eu/hungary.html
@@ -31,19 +31,20 @@
 "Israel",2015,376,"ISR",29, https://knesset.gov.il/description/eng/eng_mimshal_res20.htm 
 "Italy",2018,380,"ITA",30, http://www.parties-and-elections.eu/italy.html
 "Jamaica",2016,388,"JAM",31, http://www.caribbeanelections.com/jm/elections/jm_results_2016.asp 
-"Japan",1990,392,"JPN",32,
-"Korea",1990,410,"KOR",33,
+"Japan",2017,392,"JPN",32, http://archive.ipu.org/parline/reports/2161_E.htm
+"Korea",2016,410,"KOR",33, http://www.nec.go.kr/engvote_2013/02_elections/01_11.jsp#
 "Latvia",2018,428,"LVA",34, http://www.parties-and-elections.eu/latvia.html
 "Lithuania",2016,440,"LTU",35, http://www.parties-and-elections.eu/lithuania.html
 "Luxembourg",2018,442,"LUX",36, http://www.parties-and-elections.eu/luxembourg.html
 "Mali",1995,466,"MLI",37,
 "Malta",2017,470,"MLT",38, http://www.parties-and-elections.eu/malta.html
-"Mauritius",1990,480,"MUS",39,
+"Mauritius",2014,480,"MUS",39, http://electoral.govmu.org/English/electionresult/nasselec/Pages/Detailed-Results-by-Constituency-2014.aspx
+"Mauritius",2017,480,"MUS",39, http://electoral.govmu.org/English/Documents/NABE2017/result%20NABE2017.pdf (by-elections)
 "Mexico",2018,484,"MEX",40, https://www.as-coa.org/articles/timeline-2017-and-2018-elections-latin-america 
 "Mongolia",1991,496,"MNG",41,
 "Namibia",1990,516,"NAM",42,
 "Netherlands",2017,528,"NLD",43, http://www.parties-and-elections.eu/netherlands.html
-"New Zealand",1990,554,"NZL",44,
+"New Zealand",2017,554,"NZL",44, https://www.elections.org.nz/events/2017-general-election
 "Norway",2017,578,"NOR",45, http://www.parties-and-elections.eu/norway.html
 "Panama",1994,591,"PAN",46,
 "Poland",2015,616,"POL",47, http://www.parties-and-elections.eu/poland.html
@@ -51,7 +52,7 @@
 "Romania",2016,642,"ROU",49, http://www.parties-and-elections.eu/romania.html
 "Slovakia",2016,703,"SVK",50, http://www.parties-and-elections.eu/slovakia.html
 "Slovenia",2018,705,"SVN",51, http://www.parties-and-elections.eu/slovenia.html
-"South Africa",1994,710,"ZAF",52,
+"South Africa",2014,710,"ZAF",52, http://www.elections.org.za/content/Dynamic.aspx?id=3292&name=Elections&LeftMenuId=100&BreadCrumbId=220
 "Spain",2016,724,"ESP",53, http://www.parties-and-elections.eu/spain.html
 "Suriname",2015,740,"SUR",54, http://www.caribbeanelections.com/sr/elections/sr_results_2015.asp 
 "Sweden",2018,752,"SWE",55, http://www.parties-and-elections.eu/sweden.html
@@ -59,5 +60,5 @@
 "Taiwan",1996,158,"TWN",57,
 "Trinidad and Tobago",2015,780,"TTO",58, http://www.caribbeanelections.com/tt/elections/tt_results_2015.asp  
 "United Kingdom",2017,826,"GBR",59, http://www.parties-and-elections.eu/unitedkingdom.html
-"United States",1990,840,"USA",60,
+"United States",2018,840,"USA",60, https://www.bbc.com/news/world-us-canada-46076389 (midterms)
 "Uruguay",1990,858,"URY",61,
