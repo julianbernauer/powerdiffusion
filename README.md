@@ -1,5 +1,5 @@
 ## Repository for the book "Power Diffusion and Democracy"
-The repository is home of documentation, data and replication material for the paper book "Power Diffusion and Democracy", forthcoming with Cambridge University Press. 
+The repository is home of documentation, data and replication material for the book "Power Diffusion and Democracy", forthcoming with Cambridge University Press. 
 
 ## Authors
 **Julian Bernauer (University of Mannheim, MZES)** and **Adrian Vatter (University of Bern, IPW)**
