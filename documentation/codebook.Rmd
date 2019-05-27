@@ -14,7 +14,7 @@ Data: Cite the book, and add: Book: Bernauer, Julian and Adrian Vatter (YEAR): P
 Measured with the continuous Gallagher index of disproportionality, which compares parties' vote and seat shares at parliamentary elections (lower house), pronouncing stronger deviations more. The index LSQ considers the vote shares s and the seat shares v of parties i: 
 
 $
-LSQ = 1/2 
+LSQ = 1/2 ...
 $
 
 Main source: Gallagher (2015), see the codebook provided there for details on the treatment of for instance the "other" category for electoral results (taken as a single party here) and other coding issues. Closely allied parties are treated as separate parties, umbrella or factionalized parties treated as single parties. Further elections in Ghana, Mongolia, Panama, Benin, Cape Verde, Mali, Taiwan and Uruguay are coded using sources such as the Interparliamentary Union (IPU), http://www.ipu.org and http://psephos.adam-carr.net, accessed in June 2013 and August 2015. Details on the coding are available from the authors. Missing values: Benin 2004-2015, Dominican Republic 1998-2001, South Korea 2009-2012, Mali 1998-2015 and Mongolia 1991. Lithuania 1991 and Poland 1990 are transitional cases, where the countries are coded as democratic, but not yet the elections.
