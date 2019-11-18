@@ -1,7 +1,7 @@
 # Codebook Power Diffusion and Democracy
 
 # How to cite 
-Book: Bernauer, Julian and Adrian Vatter (Forthcoming). Power Diffusion and Democracy: Institutions, Deliberation and Outcomes. Cambridge: Cambridge University Press. 
+Book: Bernauer, Julian and Adrian Vatter (2019). Power Diffusion and Democracy: Institutions, Deliberation and Outcomes. Cambridge: Cambridge University Press. 
 
 Data: Cite the book, and add: Book: Bernauer, Julian and Adrian Vatter (YEAR): Power Diffusion and Democracy Data Repository, https://github.com/julianbernauer/powerdiffusion, [downloaded XX].
 
