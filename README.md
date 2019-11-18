@@ -36,4 +36,7 @@ descriptives (<a href="https://github.com/julianbernauer/powerdiffusion/blob/mas
 
 Additonally, we provide scores similar to those of consensus democracy in Lijphart (2012) in the section "Lijphart-Style Scores" as a nod to the grandmaster of empirical patterns of democracy. 
 
+## Illustration
+A Shiny App for the illustration and exploration of the data base is under construction. 
+
 
