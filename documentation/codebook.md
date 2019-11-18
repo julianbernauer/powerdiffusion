@@ -13,9 +13,7 @@ Data: Cite the book, and add: Book: Bernauer, Julian and Adrian Vatter (YEAR): P
 
 Measured with the continuous Gallagher index of disproportionality, which compares parties' vote and seat shares at parliamentary elections (lower house), pronouncing stronger deviations more. The index LSQ considers the vote shares s and the seat shares v of parties i: 
 
-$
-LSQ = 1/2 ...
-$
+$$ LSQ = sqrt(1/2 \sum(v_i)-(s_i)) $$
 
 Main source: Gallagher (2015), see the codebook provided there for details on the treatment of for instance the "other" category for electoral results (taken as a single party here) and other coding issues. Closely allied parties are treated as separate parties, umbrella or factionalized parties treated as single parties. Further elections in Ghana, Mongolia, Panama, Benin, Cape Verde, Mali, Taiwan and Uruguay are coded using sources such as the Interparliamentary Union (IPU), http://www.ipu.org and http://psephos.adam-carr.net, accessed in June 2013 and August 2015. Details on the coding are available from the authors. Missing values: Benin 2004-2015, Dominican Republic 1998-2001, South Korea 2009-2012, Mali 1998-2015 and Mongolia 1991. Lithuania 1991 and Poland 1990 are transitional cases, where the countries are coded as democratic, but not yet the elections.
 
@@ -87,4 +85,3 @@ Classification into presidential (3), semi-presidential (2) and parliamentary (1
 
 Approximately continuous index of direct democratic power dispersion (initiatives and referendums). Sources: Our own calculations are mainly based on data from the Centre for Research on Direct Democracy (C2D), Zurich, http://www.c2d.ch/ and the IRI/DI Navigator to Direct Democracy, http://direct-democracy-navigator.org/countries, both accessed repeatedly in June 2013. Usage coded for 1990-2010. Cross-checks using various sources. See below for details. The index compiled contains points for the degree of majoritarianism or consensualism in the direct democratic provisions in the constitution and embodied in the decision rules as well as for the actual use of direct democracy. "Uncontrolled" referendums, i.e. optional referendums and initiatives score 1 point each if prescribed by the constitution. Plebiscites (ad hoc referendums), which are subject to the discretion of the head of governments score a negative point each if prescribed by the constitution. As an intermediate form, 0 points are given for mandatory referendums. 0.5 points awarded for each variant of direct democracy when a quorum of participation is required and 1 point when a qualified majority is required. 1 point is awarded for the actual use of mandatory referendums, optional referendums and popular initiatives, and a negative point for the use of plebiscites.
 
--> coding... 
