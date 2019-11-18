@@ -37,8 +37,3 @@ descriptives (<a href="https://github.com/julianbernauer/powerdiffusion/blob/mas
 Additonally, we provide scores similar to those of consensus democracy in Lijphart (2012) in the section "Lijphart-Style Scores" as a nod to the grandmaster of empirical patterns of democracy. 
 
 
-## Illustration 
-
-![Maps of Power Diffusion (1990-2015)](figures/fig3_7.eps)
-
-**Bivariate maps of the four types of power diffusion (1990-2015)**
