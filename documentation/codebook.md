@@ -25,7 +25,7 @@ Main source: Gallagher (2015), see the codebook provided there for details on th
 
 A continuous variable computed using the formula by Laakso and Taagepera (1979), considering the relative size of parties. The number of parties ENPP equals the inverse sum of the squared seat shares s of parties i. Sources and missings: See electoral disproportionality, identical data base. 
 
-#ENPP=1/(???_(i=1)^n???p_i^2 )
+![ENPP](enpp.gif)
 
 ## Cabinet type
 
