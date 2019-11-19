@@ -2,7 +2,7 @@
 The repository is home of documentation, data and replication material for the book "Power Diffusion and Democracy", <a href="https://www.cambridge.org/de/academic/subjects/politics-international-relations/comparative-politics/power-diffusion-and-democracy-institutions-deliberation-and-outcomes?format=HB">  published by Cambridge University Press </a> in 2019. 
 
 ## Authors
-** <a href="https://www.mzes.uni-mannheim.de/d7/en/profiles/julian-bernauer"> Julian Bernauer </a>  (University of Mannheim, MZES)** and ** <a href="https://www.ipw.unibe.ch/about_us/people/prof_dr_vatter_adrian/index_eng.html"> Adrian Vatter </a> (University of Bern, IPW)**
+<a href="https://www.mzes.uni-mannheim.de/d7/en/profiles/julian-bernauer"> **Julian Bernauer** </a>  (University of Mannheim, MZES) and <a href="https://www.ipw.unibe.ch/about_us/people/prof_dr_vatter_adrian/index_eng.html"> **Adrian Vatter** </a> (University of Bern, IPW)
 
 ## How to cite 
 Book: Bernauer, Julian and Adrian Vatter (2019). Power Diffusion and Democracy: Institutions, Deliberation and Outcomes. Cambridge: Cambridge University Press. 
