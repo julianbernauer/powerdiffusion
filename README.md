@@ -30,11 +30,11 @@ accountability perceptions (<a href="https://github.com/julianbernauer/powerdiff
 turnout (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_leg_turn_github.r">code</a>),
 satisfaction with democracy (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_leg_demsat_github.r">code</a>),
 descriptives (<a href="https://github.com/julianbernauer/powerdiffusion/blob/master/code/PDD_leg_descr_github.r"> code</a>),
-- Chapter 6 on the explanation of power diffusion: Data and code 
-- Chapter 7 on the convergence of democratic architectures: Data and code 
-- Chapter 8 on subnational power diffusion: Data and code 
+- Chapter 6 on the explanation of power diffusion: Data and code (under construction)
+- Chapter 7 on the convergence of democratic architectures: Data and code (under construction)
+- Chapter 8 on subnational power diffusion: Data and code (under construction)
 
-Additonally, we provide scores similar to those of consensus democracy in Lijphart (2012) in the section "Lijphart-Style Scores" as a nod to the grandmaster of empirical patterns of democracy. 
+Additonally, we provide scores similar to those of consensus democracy in Lijphart (2012) in the section "Lijphart-Style Scores" as a nod to the grandmaster of empirical patterns of democracy (under construction). 
 
 ## Illustration
 A Shiny App for the illustration and exploration of the data base is under construction. 
