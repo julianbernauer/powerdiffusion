@@ -1,49 +1,75 @@
 "cname","year","ccode","ccodealp","id","source_link", enp, disprop
 "Argentina",2017,32,"ARG",1, https://www.as-coa.org/articles/timeline-2017-and-2018-elections-latin-america (midterms), 3.31, 5.85
-"Argentina",2017,32,"ARG",1, https://www.as-coa.org/articles/timeline-2017-and-2018-elections-latin-america (midterms), 2.33, 4.86
+"Argentina",2019,32,"ARG",1, https://www.as-coa.org/articles/weekly-chart-argentinas-legislative-elections-numbers, 2.33, 4.86
 "Australia",2016,36,"AUS",2, https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp1617/Quick_Guides/45th_Parliament_Composition, 3.07, 11.48
-"Australia",2016,36,"AUS",2, https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp1617/Quick_Guides/45th_Parliament_Composition, 3.17, 12.35
+"Australia",2019,36,"AUS",2, https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp1617/Quick_Guides/45th_Parliament_Composition, 3.17, 12.35
 "Austria",2017,40,"AUT",3, http://www.parties-and-elections.eu/austria.html, 3.60, 3.73
 "Austria",2019,40,"AUT",3, http://www.parties-and-elections.eu/austria.html, 3.94, 1.85
 "Bahamas",2017,44,"BHS",4, http://www.caribbeanelections.com/bs/elections/bs_results_2017.asp, 1.23, 30.06 
 "Barbados",2018,52,"BRB",5, http://www.caribbeanelections.com/bb/elections/bb_results_2018.asp, 1.00, 24.86
 "Belgium",2014,56,"BEL",6, http://www.parties-and-elections.eu/belgium.html, 7.82, 4.60
+"Belgium",2019,56,"BEL",6, http://www.parties-and-elections.eu/belgium.html, 9.70, 3.92
 "Benin",2015,204,"BEN",7, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/benin-node/benin/208982, 4.66, 7.58
-"Botswana",2014,72,"BWA",8, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/botsuana-node/innenpolitik/219548, 1.94, 16.91
+"Benin",2019,204,"BEN",7, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/benin-node/benin/208982, 1.97, 0.40
+"Botswana",2014,72,"BWA",8, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/botsuana-node/innenpolitik/219548, 1.95, 16.91
+"Botswana",2019,72,"BWA",8, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/botsuana-node/innenpolitik/219548, 1.94, 12.26
 "Bulgaria",2017,100,"BGR",9, http://www.parties-and-elections.eu/bulgaria.html, 3.39, 7.42
+"Bulgaria",2021 (Apr),100,"BGR",9, http://www.parties-and-elections.eu/bulgaria.html, 4.84, 6.78
+"Bulgaria",2021 (Jul),100,"BGR",9, http://www.parties-and-elections.eu/bulgaria.html, 4.94, 4.82
 "Canada",2015,124,"CAN",10, http://www.elections.ca/content.aspx?section=ele&document=index&dir=pas/42ge&lang=e, 2.50, 12.01
+"Canada",2019,124,"CAN",10, http://www.elections.ca/content.aspx?section=ele&document=index&dir=pas/42ge&lang=e, 2.79, 12.18
 "Cape Verde",2016,132,"CPV",11, http://psephos.adam-carr.net/countries/c/capeverde/capeverde2016.txt, 2.12, 2.56
+"Cape Verde",2021,132,"CPV",11, http://psephos.adam-carr.net/countries/c/capeverde/capeverde2016.txt, 2.20, 3.54
 "Chile",2017,152,"CHL",12, https://www.as-coa.org/articles/timeline-2017-and-2018-elections-latin-america, 3.14, 7.22
 "Costa Rica",2018,188,"CRI",13, https://www.as-coa.org/articles/timeline-2017-and-2018-elections-latin-america, 4.73, 9.57
 "Croatia",2016,191,"HRV",14, http://www.parties-and-elections.eu/croatia.html, 2.97, 5.92
+"Croatia",2020,191,"HRV",14, http://www.parties-and-elections.eu/croatia.html, 3.19, 7.47
 "Czech Republic",2017,203,"CZE",15, http://www.parties-and-elections.eu/czechia.html, 4.81, 7.21
 "Denmark",2015,208,"DNK",16, http://www.parties-and-elections.eu/denmark.html, 5.75, 0.79
+"Denmark",2019,208,"DNK",16, http://www.parties-and-elections.eu/denmark.html, 5.85, 2.39
 "Dominican Republic",2016,214,"DOM",17, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/dominikanischerepublik-node/-/206186, 2.66, 10.61
+"Dominican Republic",2020,214,"DOM",17, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/dominikanischerepublik-node/-/206186, 2.75, 7.32
 "El Salvador",2018,222,"SLV",18, https://www.as-coa.org/articles/timeline-2017-and-2018-elections-latin-america, 4.06, 1.78
+"El Salvador",2021,222,"SLV",18, https://www.as-coa.org/articles/timeline-2017-and-2018-elections-latin-america, 2.99, 3.16
 "Estonia",2015,233,"EST",19, http://www.parties-and-elections.eu/estonia.html, 4.72, 2.34
+"Estonia",2019,233,"EST",19, http://www.parties-and-elections.eu/estonia.html, 4.19, 5.28
 "Finland",2015,246,"FIN",20, http://www.parties-and-elections.eu/finland.html, 5.84, 3.03
+"Finland",2019,246,"FIN",20, http://www.parties-and-elections.eu/finland.html, 6.36, 3.55
 "France",2017,250,"FRA",21, http://www.parties-and-elections.eu/france.html, 3.00, 21.12
 "Germany",2017,276,"DEU",22, http://www.parties-and-elections.eu/germany.html, 5.58, 1.95
 "Ghana",2016,288,"GHA",23, http://psephos.adam-carr.net/countries/g/ghana/ghana2016leg.txt, 1.90, 7.01
+"Ghana",2020,288,"GHA",23, http://psephos.adam-carr.net/countries/g/ghana/ghana2016leg.txt, 2.01, 2.64
 "Greece",2015 (Jan),300,"GRC",24, http://www.parties-and-elections.eu/greece.html, 3.09, 9.98
 "Greece",2015 (Sept),300,"GRC",24, http://www.parties-and-elections.eu/greece.html, 3.24, 9.69
+"Greece",2019,300,"GRC",24, http://www.parties-and-elections.eu/greece.html, 2.71, 9.66
 "Hungary",2018,348,"HUN",25, http://www.parties-and-elections.eu/hungary.html, 2.09, 14.38 
 "Iceland",2017,352,"ISL",26, http://www.parties-and-elections.eu/iceland.html, 6.54, 1.91
 "India",2014,356,"IND",27, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/indien-node/-/206048, 3.45, 17.53
+"India",2019,356,"IND",27, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/indien-node/-/206048, 2.17, 16.06
 "Ireland",2016,372,"IRL",28, http://www.parties-and-elections.eu/ireland.html, 4.93, 5.62
+"Ireland",2020,372,"IRL",28, http://www.parties-and-elections.eu/ireland.html, 5.98, 2.22
 "Israel",2015,376,"ISR",29, https://knesset.gov.il/description/eng/eng_mimshal_res20.htm, 6.94, 2.77 
+"Israel",2019 (Apr),376,"ISR",29, https://knesset.gov.il/description/eng/eng_mimshal_res20.htm, 5.24, 4.45 
+"Israel",2019 (Sep),376,"ISR",29, https://knesset.gov.il/description/eng/eng_mimshal_res20.htm, 5.57, 2.10 
+"Israel",2020,376,"ISR",29, https://knesset.gov.il/description/eng/eng_mimshal_res20.htm, 5.01, 0.86 
+"Israel",2021,376,"ISR",29, https://knesset.gov.il/description/eng/eng_mimshal_res20.htm, 8.52, 1.09 
 "Italy",2018,380,"ITA",30, http://www.parties-and-elections.eu/italy.html, 2.90, 5.70
 "Jamaica",2016,388,"JAM",31, http://www.caribbeanelections.com/jm/elections/jm_results_2016.asp, 2.00, 0.61
+"Jamaica",2020,388,"JAM",31, http://www.caribbeanelections.com/jm/elections/jm_results_2016.asp, 1.53, 20.62
 "Japan",2017,392,"JPN",32, http://archive.ipu.org/parline/reports/2161_E.htm, 2.48, 16.28
 "Korea",2016,410,"KOR",33, http://www.nec.go.kr/engvote_2013/02_elections/01_11.jsp#, 2.85, 9.45
+"Korea",2020,410,"KOR",33, http://www.nec.go.kr/engvote_2013/02_elections/01_11.jsp#, 2.09, 13.65
 "Latvia",2018,428,"LVA",34, http://www.parties-and-elections.eu/latvia.html, 3.93, 0.94
 "Lithuania",2016,440,"LTU",35, http://www.parties-and-elections.eu/lithuania.html, 4.42, 12.56
+"Lithuania",2020,440,"LTU",35, http://www.parties-and-elections.eu/lithuania.html, 4.84, 9.49
 "Luxembourg",2018,442,"LUX",36, http://www.parties-and-elections.eu/luxembourg.html, 4.56, 5.57
 "Mali",2013,466,"MLI",37, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/mali-node/mali/208242, , 
 "Malta",2017,470,"MLT",38, http://www.parties-and-elections.eu/malta.html, 1.98, 1.01
 "Mauritius",2014,480,"MUS",39, http://electoral.govmu.org/English/electionresult/nasselec/Pages/Detailed-Results-by-Constituency-2014.aspx, 1.66, 20.44
 "Mauritius",2017,480,"MUS",39, http://electoral.govmu.org/English/Documents/NABE2017/result%20NABE2017.pdf (by-elections), , 
+"Mauritius",2019,480,"MUS",39, http://electoral.govmu.org/English/Documents/NABE2017/result%20NABE2017.pdf (by-elections), 2.29, 17.94
 "Mexico",2018,484,"MEX",40, https://www.as-coa.org/articles/timeline-2017-and-2018-elections-latin-america, 2.18, 7.72 
+"Mexico",2021,484,"MEX",40, https://www.as-coa.org/articles/timeline-2017-and-2018-elections-latin-america, 2.12, 9.30
 "Mongolia",2016,496,"MNG",41, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/mongolei-node/mongolei/222840, ,
 "Namibia",2014,516,"NAM",42, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/namibia-node/namibia/208312, 1.54, 0.90
 "Netherlands",2017,528,"NLD",43, http://www.parties-and-elections.eu/netherlands.html, 8.12, 0.96
