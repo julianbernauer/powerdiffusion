@@ -40,7 +40,7 @@
 "Ghana",2016,288,"GHA",23, http://psephos.adam-carr.net/countries/g/ghana/ghana2016leg.txt, 1.90, 7.01
 "Ghana",2020,288,"GHA",23, http://psephos.adam-carr.net/countries/g/ghana/ghana2016leg.txt, 2.01, 2.64
 "Greece",2015 (Jan),300,"GRC",24, http://www.parties-and-elections.eu/greece.html, 3.09, 9.98
-"Greece",2015 (Sept),300,"GRC",24, http://www.parties-and-elections.eu/greece.html, 3.24, 9.69
+"Greece",2015 (Sep),300,"GRC",24, http://www.parties-and-elections.eu/greece.html, 3.24, 9.69
 "Greece",2019,300,"GRC",24, http://www.parties-and-elections.eu/greece.html, 2.71, 9.66
 "Hungary",2018,348,"HUN",25, http://www.parties-and-elections.eu/hungary.html, 2.09, 14.38 
 "Iceland",2017,352,"ISL",26, http://www.parties-and-elections.eu/iceland.html, 6.54, 1.91
@@ -72,22 +72,42 @@
 "Mexico",2021,484,"MEX",40, https://www.as-coa.org/articles/timeline-2017-and-2018-elections-latin-america, 2.12, 9.30
 "Mongolia",2016,496,"MNG",41, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/mongolei-node/mongolei/222840, ,
 "Namibia",2014,516,"NAM",42, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/namibia-node/namibia/208312, 1.54, 0.90
+"Namibia",2019,516,"NAM",42, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/namibia-node/namibia/208312, 2.16, 0.98
 "Netherlands",2017,528,"NLD",43, http://www.parties-and-elections.eu/netherlands.html, 8.12, 0.96
+"Netherlands",2021, 528,"NLD",43, http://www.parties-and-elections.eu/netherlands.html, 8.54, 1.31
 "New Zealand",2017,554,"NZL",44, https://www.elections.org.nz/events/2017-general-election, 2.67, 2.73
+"New Zealand",2020,554,"NZL",44, https://www.elections.org.nz/events/2017-general-election, 2.61, 4.15
 "Norway",2017,578,"NOR",45, http://www.parties-and-elections.eu/norway.html, 4.95, 3.01
+"Norway",2021,578,"NOR",45, http://www.parties-and-elections.eu/norway.html, 5.56, 3.65
 "Panama",2014,591,"PAN",46, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/panama-node/-/206562, 3.01, 7.87
+"Panama",2019,591,"PAN",46, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/panama-node/-/206562, 3.07, 14.96
 "Poland",2015,616,"POL",47, http://www.parties-and-elections.eu/poland.html, 2.75, 12.56
+"Poland",2019,616,"POL",47, http://www.parties-and-elections.eu/poland.html, 2.76, 6.60
 "Portugal",2015,620,"PRT",48, http://www.parties-and-elections.eu/portugal.html, 2.86, 5.65
-"Romania",2016,642,"ROU",49, http://www.parties-and-elections.eu/romania.html, 3.54, 2.69
+"Portugal",2019,620,"PRT",48, http://www.parties-and-elections.eu/portugal.html, 2.87, 7.77
+"Romania",2017,642,"ROU",49, http://www.parties-and-elections.eu/romania.html, 3.54, 2.69
+"Romania",2020,642,"ROU",49, http://www.parties-and-elections.eu/romania.html, 4.30, 6.14
 "Slovakia",2016,703,"SVK",50, http://www.parties-and-elections.eu/slovakia.html, 5.67, 6.10
+"Slovakia",2020,703,"SVK",50, http://www.parties-and-elections.eu/slovakia.html, 4.37, 12.37
 "Slovenia",2018,705,"SVN",51, http://www.parties-and-elections.eu/slovenia.html, 6.51, 4.56
 "South Africa",2014,710,"ZAF",52, http://www.elections.org.za/content/Dynamic.aspx?id=3292&name=Elections&LeftMenuId=100&BreadCrumbId=220, 2.26, 0.37
+"South Africa",2019,710,"ZAF",52, http://www.elections.org.za/content/Dynamic.aspx?id=3292&name=Elections&LeftMenuId=100&BreadCrumbId=220, 2.57, 0.47
 "Spain",2016,724,"ESP",53, http://www.parties-and-elections.eu/spain.html, 4.16, 5.37
+"Spain",2019 (Apr),724,"ESP",53, http://www.parties-and-elections.eu/spain.html, 4.94, 5.52
+"Spain",2019 (Nov),724,"ESP",53, http://www.parties-and-elections.eu/spain.html, 4.68, 6.36
 "Suriname",2015,740,"SUR",54, http://www.caribbeanelections.com/sr/elections/sr_results_2015.asp, 2.53, 4.63 
+"Suriname",2020,740,"SUR",54, http://www.caribbeanelections.com/sr/elections/sr_results_2015.asp, 3.53, 8.70
 "Sweden",2018,752,"SWE",55, http://www.parties-and-elections.eu/sweden.html, 5.63, 0.63
 "Switzerland",2015,756,"CHE",56, http://www.parties-and-elections.eu/switzerland.html, 4.92, 3.69
+"Switzerland",2019,756,"CHE",56, http://www.parties-and-elections.eu/switzerland.html, 5.83, 2.46
 "Taiwan",2016,158,"TWN",57, http://psephos.adam-carr.net/countries/t/taiwan/taiwan20161.txt, 2.17, 11.72
+"Taiwan",2020,158,"TWN",57, http://psephos.adam-carr.net/countries/t/taiwan/taiwan20161.txt, 2.45, 10.91
 "Trinidad and Tobago",2015,780,"TTO",58, http://www.caribbeanelections.com/tt/elections/tt_results_2015.asp, 2.05, 4.25  
+"Trinidad and Tobago",2020,780,"TTO",58, http://www.caribbeanelections.com/tt/elections/tt_results_2015.asp, 1.99, 3.55  
 "United Kingdom",2017,826,"GBR",59, http://www.parties-and-elections.eu/unitedkingdom.html, 2.48, 6.47
-"United States",2018,840,"USA",60, https://www.bbc.com/news/world-us-canada-46076389 (midterms), 1.98, 5.25
+"United Kingdom",2019,826,"GBR",59, http://www.parties-and-elections.eu/unitedkingdom.html, 2.39, 11.80
+"United States",2016,840,"USA",60, https://www.bbc.com/news/world-us-canada-46076389 (midterms), 1.98, 5.25
+"United States",2018,840,"USA",60, https://www.bbc.com/news/world-us-canada-46076389 (midterms), 1.99, 1.29
+"United States",2020,840,"USA",60, https://www.bbc.com/news/world-us-canada-46076389 (midterms), 2.00, 1.44
 "Uruguay",2014,858,"URY",61, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/uruguay-node/uruguay/201136, 2.65, 1.00
+"Uruguay",2019,858,"URY",61, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/uruguay-node/uruguay/201136, 3.31, 1.73
