@@ -27,9 +27,9 @@
 ...
 "Botswana", "2015", "...", "BWA", "8", "...", "..."
 ...
-"Bulgaria", "2015", "...", "BGR", "9"; "https://www.cpds-data.org/", "2"
-"Bulgaria", "2016", "...", "BGR", "9"; "https://www.cpds-data.org/", "2"
-"Bulgaria", "2017", "...", "BGR", "9"; "https://www.cpds-data.org/", "3"
-"Bulgaria", "2018", "...", "BGR", "9"; "https://www.cpds-data.org/", "3"
-"Bulgaria", "2019", "...", "BGR", "9"; "https://www.cpds-data.org/", "3"
-"Bulgaria", "2020", "...", "BGR", "9"; "https://www.cpds-data.org/", "3"
+"Bulgaria", "2015", "...", "BGR", "9", "https://www.cpds-data.org/", "2"
+"Bulgaria", "2016", "...", "BGR", "9", "https://www.cpds-data.org/", "2"
+"Bulgaria", "2017", "...", "BGR", "9", "https://www.cpds-data.org/", "3"
+"Bulgaria", "2018", "...", "BGR", "9", "https://www.cpds-data.org/", "3"
+"Bulgaria", "2019", "...", "BGR", "9", "https://www.cpds-data.org/", "3"
+"Bulgaria", "2020", "...", "BGR", "9", "https://www.cpds-data.org/", "3"
