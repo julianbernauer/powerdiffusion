@@ -1,2 +1,3 @@
 "cname","period", "ccode", "ccodealp","id","source_link","plebiscite_exists","plebiscite_rule","plebiscite_use","mandatory_referendum_exists","mandatory_referendum_rule","mandatory_referendum_use","optional_referendum_exists","optional_referendum_rule","optional_referendum_use","initiative_exists","initiative_rule","initiative_use","dir_total"
-"Argentina", "2011_2022", "32", "ARG", "1", "-1", "0", "0", "No", "...", "...", "No", "...", "...", "No", "...", "...", "-1"
+"Argentina", "2011-2022", "32", "ARG", "1", "https://c2d.ch/, https://direct-democracy-navigator.org/", "-1", "0", "0", "No", "...", "...", "No", "...", "...", "No", "...", "...", "-1"
+"Australia", "2011-2022", "36", "AUS", "2", "https://c2d.ch/, https://direct-democracy-navigator.org/", "-1", "0", "-1", "0.5", "1", "0", "No", "...", "...", "No", "...", "...", "-0.5"
