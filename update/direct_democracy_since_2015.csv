@@ -39,10 +39,10 @@
 "Malta", "2011-2022", "470", "MLT", "38", "https://c2d.ch/, https://direct-democracy-navigator.org/", "-1", "0", "-1", "0.5", "0", "0", "No", "", "", "1", "0.5", "1", "1"
 "Mauritius", "2011-2022", "480", "MUS", "39", "https://c2d.ch/, https://direct-democracy-navigator.org/", "No", "", "", "0.5", "0.5", "0", "No", "", "", "No", "", "", "1"
 "Mexico", "2011-2022", "484", "MEX", "40", "https://c2d.ch/, https://direct-democracy-navigator.org/", "-1", "1", "-1", "No", "", "", "1", "1", "1", "1", "0.5", "2", "5.5"
-"Mongolia", "2015", "496", "MNG", "41", "-1", "1", "-1", "No", "", "", "No", "", "", "No", "", "", "-1"
-"Namibia", "2018", "516", "NAM", "42", "-1", "1", "0", "No", "", "", "No", "", "", "No", "", "", "0"
-"Netherlands", "2015", "528", "NLD", "43", "No", "", "", "No", "", "", "1", "0", "1", "No", "", "", "2"
-"New Zealand", "2017", "554", "NZL", "44", "-1", "0", "-1", "0.5", "0.5", "0", "No", "", "", "0.5", "0.5", "1", "1"
-"Norway", "2015", "578", "NOR", "45", "-1", "0", "0", "No", "", "", "No", "", "", "No", "", "", "-1"
+"Mongolia", "2015", "496", "MNG", "41", "https://c2d.ch/, https://direct-democracy-navigator.org/", "-1", "1", "-1", "No", "", "", "No", "", "", "No", "", "", "-1"
+"Namibia", "2018", "516", "NAM", "42", "https://c2d.ch/, https://direct-democracy-navigator.org/", "-1", "1", "0", "No", "", "", "No", "", "", "No", "", "", "0"
+"Netherlands", "2015", "528", "NLD", "43", "https://c2d.ch/, https://direct-democracy-navigator.org/", "No", "", "", "No", "", "", "1", "0", "1", "No", "", "", "2"
+"New Zealand", "2017", "554", "NZL", "44", "https://c2d.ch/, https://direct-democracy-navigator.org/", "-1", "0", "-1", "0.5", "0.5", "0", "No", "", "", "0.5", "0.5", "1", "1"
+"Norway", "2015", "578", "NOR", "45", "-1", "https://c2d.ch/, https://direct-democracy-navigator.org/", "0", "0", "No", "", "", "No", "", "", "No", "", "", "-1"
 
 
