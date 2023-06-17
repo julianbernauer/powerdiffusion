@@ -14,8 +14,8 @@
 "Botswana",2014,72,"BWA",8, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/botsuana-node/innenpolitik/219548, 1.95, 16.91
 "Botswana",2019,72,"BWA",8, https://www.auswaertiges-amt.de/de/aussenpolitik/laender/botsuana-node/innenpolitik/219548, 1.94, 12.26
 "Bulgaria",2017,100,"BGR",9, http://www.parties-and-elections.eu/bulgaria.html, 3.39, 7.42
-"Bulgaria",2021 (Apr),100,"BGR",9, http://www.parties-and-elections.eu/bulgaria.html, 4.84, 6.78
-"Bulgaria",2021 (Jul),100,"BGR",9, http://www.parties-and-elections.eu/bulgaria.html, 4.94, 4.82
+"Bulgaria",202104,100,"BGR",9, http://www.parties-and-elections.eu/bulgaria.html, 4.84, 6.78
+"Bulgaria",202107,100,"BGR",9, http://www.parties-and-elections.eu/bulgaria.html, 4.94, 4.82
 "Canada",2015,124,"CAN",10, http://www.elections.ca/content.aspx?section=ele&document=index&dir=pas/42ge&lang=e, 2.50, 12.01
 "Canada",2019,124,"CAN",10, http://www.elections.ca/content.aspx?section=ele&document=index&dir=pas/42ge&lang=e, 2.79, 12.18
 "Cape Verde",2016,132,"CPV",11, http://psephos.adam-carr.net/countries/c/capeverde/capeverde2016.txt, 2.12, 2.56
@@ -39,8 +39,8 @@
 "Germany",2017,276,"DEU",22, http://www.parties-and-elections.eu/germany.html, 5.58, 1.95
 "Ghana",2016,288,"GHA",23, http://psephos.adam-carr.net/countries/g/ghana/ghana2016leg.txt, 1.90, 7.01
 "Ghana",2020,288,"GHA",23, http://psephos.adam-carr.net/countries/g/ghana/ghana2016leg.txt, 2.01, 2.64
-"Greece",2015 (Jan),300,"GRC",24, http://www.parties-and-elections.eu/greece.html, 3.09, 9.98
-"Greece",2015 (Sep),300,"GRC",24, http://www.parties-and-elections.eu/greece.html, 3.24, 9.69
+"Greece",201501,300,"GRC",24, http://www.parties-and-elections.eu/greece.html, 3.09, 9.98
+"Greece",201509,300,"GRC",24, http://www.parties-and-elections.eu/greece.html, 3.24, 9.69
 "Greece",2019,300,"GRC",24, http://www.parties-and-elections.eu/greece.html, 2.71, 9.66
 "Hungary",2018,348,"HUN",25, http://www.parties-and-elections.eu/hungary.html, 2.09, 14.38 
 "Iceland",2017,352,"ISL",26, http://www.parties-and-elections.eu/iceland.html, 6.54, 1.91
@@ -49,8 +49,8 @@
 "Ireland",2016,372,"IRL",28, http://www.parties-and-elections.eu/ireland.html, 4.93, 5.62
 "Ireland",2020,372,"IRL",28, http://www.parties-and-elections.eu/ireland.html, 5.98, 2.22
 "Israel",2015,376,"ISR",29, https://knesset.gov.il/description/eng/eng_mimshal_res20.htm, 6.94, 2.77 
-"Israel",2019 (Apr),376,"ISR",29, https://knesset.gov.il/description/eng/eng_mimshal_res20.htm, 5.24, 4.45 
-"Israel",2019 (Sep),376,"ISR",29, https://knesset.gov.il/description/eng/eng_mimshal_res20.htm, 5.57, 2.10 
+"Israel",201904,376,"ISR",29, https://knesset.gov.il/description/eng/eng_mimshal_res20.htm, 5.24, 4.45 
+"Israel",201909,376,"ISR",29, https://knesset.gov.il/description/eng/eng_mimshal_res20.htm, 5.57, 2.10 
 "Israel",2020,376,"ISR",29, https://knesset.gov.il/description/eng/eng_mimshal_res20.htm, 5.01, 0.86 
 "Israel",2021,376,"ISR",29, https://knesset.gov.il/description/eng/eng_mimshal_res20.htm, 8.52, 1.09 
 "Italy",2018,380,"ITA",30, http://www.parties-and-elections.eu/italy.html, 2.90, 5.70
@@ -93,8 +93,8 @@
 "South Africa",2014,710,"ZAF",52, http://www.elections.org.za/content/Dynamic.aspx?id=3292&name=Elections&LeftMenuId=100&BreadCrumbId=220, 2.26, 0.37
 "South Africa",2019,710,"ZAF",52, http://www.elections.org.za/content/Dynamic.aspx?id=3292&name=Elections&LeftMenuId=100&BreadCrumbId=220, 2.57, 0.47
 "Spain",2016,724,"ESP",53, http://www.parties-and-elections.eu/spain.html, 4.16, 5.37
-"Spain",2019 (Apr),724,"ESP",53, http://www.parties-and-elections.eu/spain.html, 4.94, 5.52
-"Spain",2019 (Nov),724,"ESP",53, http://www.parties-and-elections.eu/spain.html, 4.68, 6.36
+"Spain",201904,724,"ESP",53, http://www.parties-and-elections.eu/spain.html, 4.94, 5.52
+"Spain",201911,724,"ESP",53, http://www.parties-and-elections.eu/spain.html, 4.68, 6.36
 "Suriname",2015,740,"SUR",54, http://www.caribbeanelections.com/sr/elections/sr_results_2015.asp, 2.53, 4.63 
 "Suriname",2020,740,"SUR",54, http://www.caribbeanelections.com/sr/elections/sr_results_2015.asp, 3.53, 8.70
 "Sweden",2018,752,"SWE",55, http://www.parties-and-elections.eu/sweden.html, 5.63, 0.63
