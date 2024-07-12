@@ -7,7 +7,7 @@ The repository is home of documentation, data and replication material for the b
 ## How to cite 
 Book: Bernauer, Julian and Adrian Vatter (2019). Power Diffusion and Democracy: Institutions, Deliberation and Outcomes. Cambridge: Cambridge University Press. 
 
-Data: Cite the book, and add: Bernauer, Julian and Adrian Vatter (YEAR): Power Diffusion and Democracy Data Repository, https://github.com/julianbernauer/powerdiffusion, [downloaded on DD.MM.YYYY].
+Data: Cite the book, and add: Bernauer, Julian and Adrian Vatter (YEAR): Power Diffusion and Democracy Data Repository, https://github.com/julianbernauer/powerdiffusion, [downloaded on DD.MM.YYYY] (fill in date).
 
 ## Guide to the repository 
 The repository contains the data and replication code for the estimation of scores of power diffusion in four variants (see Chapter 2 of the book for theory) - proportional, decentral, presidential and direct power diffusion (empirics described in Chapter 3 of the book): 
@@ -37,6 +37,6 @@ descriptives (<a href="https://github.com/julianbernauer/powerdiffusion/blob/mas
 Additonally, we provide scores similar to those of consensus democracy in Lijphart (2012) in the section "Lijphart-Style Scores" as a nod to the grandmaster of empirical patterns of democracy (under construction). 
 
 ## Illustration
-A Shiny App for the illustration and exploration of the data base is under construction. 
+A Shiny App for the illustration and exploration of the data base, housed at the Mannheim Centre for European Social Research (MZES) is under construction: https://shiny.mzes.uni-mannheim.de/powerdiffusion 
 
 
