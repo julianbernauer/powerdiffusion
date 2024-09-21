@@ -1,4 +1,4 @@
-## Repository for the book "Power Diffusion and Democracy"
+## Repository for the book "Power Diffusion and Democracy" and Continuous Data 
 The repository is home of documentation, data and replication material for the book "Power Diffusion and Democracy", <a href="https://www.cambridge.org/de/academic/subjects/politics-international-relations/comparative-politics/power-diffusion-and-democracy-institutions-deliberation-and-outcomes?format=HB">  published by Cambridge University Press </a> in 2019. 
 
 ## Authors
