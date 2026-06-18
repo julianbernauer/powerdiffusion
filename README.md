@@ -1,4 +1,4 @@
-## Repository for the book "Power Diffusion and Democracy" and Continuous Data 
+## Data Repository for the Book "Power Diffusion and Democracy" (CUP )and Continuous Power Diffusion Data 
 The repository is home of documentation, data and replication material for the book "Power Diffusion and Democracy", <a href="https://www.cambridge.org/de/academic/subjects/politics-international-relations/comparative-politics/power-diffusion-and-democracy-institutions-deliberation-and-outcomes?format=HB">  published by Cambridge University Press </a> in 2019. 
 
 ## Authors
@@ -34,7 +34,7 @@ descriptives (<a href="https://github.com/julianbernauer/powerdiffusion/blob/mas
 - Chapter 7 on the convergence of democratic architectures: Data and code (under construction)
 - Chapter 8 on subnational power diffusion: Data and code (under construction)
 
-Additonally, we provide scores similar to those of consensus democracy in Lijphart (2012) in the section "Lijphart-Style Scores" as a nod to the grandmaster of empirical patterns of democracy (under construction). 
+<!-- Additionally, we provide scores similar to those of consensus democracy in Lijphart (2012) in the section "Lijphart-Style Scores" as a nod to the grandmaster of empirical patterns of democracy (under construction). --> 
 
 ## Illustration
 A Shiny App for the illustration and exploration of the data base, housed at the Mannheim Centre for European Social Research (MZES) is under construction: https://shiny.mzes.uni-mannheim.de/powerdiffusion 
